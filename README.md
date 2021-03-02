@@ -31,7 +31,7 @@ The final section of this project is to create a travel itinerary map. After the
 
 ![vacation_itinerary](https://github.com/Mishkanian/World-Weather-Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
 
-Finally, the four separte destination DataFrames are combined into a single itinerary DataFrame using the Pandas .concat() function. The ending result is seen in the figure below.
+Finally, the four separate destination DataFrames are combined into a single itinerary DataFrame using the Pandas .concat() function. The ending result is seen in the figure below.
 
 ![itinerary_markers](https://github.com/Mishkanian/World-Weather-Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
