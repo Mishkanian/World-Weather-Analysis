@@ -19,10 +19,10 @@ g_key="your-google-maps-api-key-here"
 ```
 
 ## Gatering City and Weather Data  
-To start this project, it was necessary to create a data file containing city information, including weather and location data. I began by generating a random set of 2,000 latitude and longitude combinations using the NumPy .random.uniform() method.
+To start this project, it was necessary to create a data file containing city information, including weather and location data. I began by generating a random set of 2,000 latitude and longitude combinations using the NumPy .random.uniform() method. These coordinates are then used with [citipy](https://github.com/wingchen/citipy) get the nearest city. If an insufficient number of cities are generated, rerun the code or expand the size of the random search. I then performed an API call using OpenWeatherMap (Current Weather Data) and parse the JSON for the needed data. After looping through all of the cities, the data is added to a DataFrame and it is then exported into a .csv file.
 
 ## Generating a Worldwide Travel Map  
-Using the CSV data file generated in the previous section, 
+Using the .csv file generated in the previous section, 
 
 ## Creating a Travel Itinerary  
 
